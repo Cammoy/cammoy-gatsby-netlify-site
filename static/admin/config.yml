@@ -10,7 +10,7 @@ collections:
   - name: "team"
     folder: "src/pages/team"
     label: "Team"
-    create: true,
+    create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page"}
       - {label: Title, name: title, widget: string}
