@@ -19,7 +19,7 @@ collections:
       - {label: Position, name: position, widget: string}
       - {label: Quote, name: quote, widget: string}
       - {label: Description, name: description, widget: string}
-      - {label: Specialist Areas, name: description, widget: list, default: ["Frontend", "Backend", "Marketing", "JAMstack", "React", "WordPress", "Optimisation"]}
+      - {label: Expertise, name: expertise, widget: list, default: ["Frontend", "Backend", "Marketing", "JAMstack", "React", "WordPress", "Optimisation"]}
 
   - name: "blog"
     label: "Blog"
