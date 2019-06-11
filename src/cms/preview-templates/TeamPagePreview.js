@@ -1,17 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { TeamPageTemplate } from '../../templates/blog-post'
+import TeamPageTemplate from '../../templates/team-page'
 
 const BlogPostPreview = ({ entry, widgetFor }) => (
-  <BlogPostTemplate
-    content={widgetFor('body')}
-    description={entry.getIn(['data', 'description'])}
-    tags={entry.getIn(['data', 'tags'])}
-    title={entry.getIn(['data', 'title'])}
-  />
+
+    <div>
+      Test
+  </div>
 )
 
-BlogPostPreview.propTypes = {
+TeamPageTemplate.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
