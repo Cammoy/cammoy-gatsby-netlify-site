@@ -7,8 +7,8 @@ public_folder: /img
 
 collections:
 
-  - name: "team"
-    folder: "src/pages/team"
+  - name: "teams"
+    folder: "src/pages/teams"
     label: "Team"
     create: true
     fields:
