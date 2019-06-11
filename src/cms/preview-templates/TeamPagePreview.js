@@ -2,8 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import TeamPageTemplate from '../../templates/team-page'
 
-const BlogPostPreview = ({ entry, widgetFor }) => (
-
+const TeamPagePreview = ({ entry, widgetFor }) => (
     <div>
       Test
   </div>
@@ -16,4 +15,4 @@ TeamPageTemplate.propTypes = {
   widgetFor: PropTypes.func,
 }
 
-export default BlogPostPreview
+export default TeamPagePreview
