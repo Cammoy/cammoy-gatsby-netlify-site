@@ -28,16 +28,16 @@ const TeamPage = ({ content }) => {
 export default TeamPage;
 
 
-export const teamPageQuery = graphql`
-    query TeamPage($id: String!) {
-        markdownRemark(id: { eq: $id }) {
-            frontmatter {
-                name,
-                email,
-                photo,
-                description
-            }
-        }
-    }
-`;
+// export const teamPageQuery = graphql`
+//     query TeamPage($id: String!) {
+//         markdownRemark(id: { eq: $id }) {
+//             frontmatter {
+//                 name,
+//                 email,
+//                 photo,
+//                 description
+//             }
+//         }
+//     }
+// `;
 
