@@ -7,9 +7,10 @@ public_folder: /img
 
 collections:
 
-  - name: "teams"
-    folder: "src/pages/teams"
+  - name: "team"
+    folder: "src/pages/team"
     label: "Team"
+    slug: "team/{{slug}}"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page"}
