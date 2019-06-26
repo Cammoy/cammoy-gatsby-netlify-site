@@ -7,21 +7,6 @@ public_folder: /img
 
 collections:
 
-  - name: "team"
-    folder: "src/pages/team"
-    label: "Team"
-    slug: "team/{{slug}}"
-    create: true
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page"}
-      - {label: Name, name: name, widget: string}
-      - {lalel: Email, name: email, widget: string}
-      - {label: Photo, name: image, widget: image}
-      - {label: Position, name: position, widget: string}
-      - {label: Quote, name: quote, widget: string}
-      - {label: Description, name: description, widget: string}
-      - {label: Expertise, name: expertise, widget: list, default: ["Frontend", "Backend", "Marketing", "JAMstack", "React", "WordPress", "Optimisation"]}
-
   - name: "blog"
     label: "Blog"
     folder: "src/pages/blog"
